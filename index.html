@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>师资检索 · 青禾大学生物工程学院</title>
+  <meta name="description" content="青禾大学生物工程学院师资检索：按姓名、研究方向、系所查找教师，查看办公室电话、邮箱、办公时间与主讲课程。">
+  <meta name="theme-color" content="#0e2a1f">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%230e2a1f'/%3E%3Cpath d='M32 12c14 0 20 10 20 20 0 10-8 20-20 20-12 0-20-10-20-20' fill='none' stroke='%23cdf07a' stroke-width='4' stroke-linecap='round'/%3E%3Cpath d='M32 16v32M24 24c8 4 8 12 0 16M40 24c-8 4-8 12 0 16' fill='none' stroke='%23cdf07a' stroke-width='3' stroke-linecap='round'/%3E%3C/svg%3E">
+  <link rel="preload" as="image" href="assets/img/hero-fern.jpg">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- SVG 图标库 -->
+  <svg class="svg-sprite" aria-hidden="true" focusable="false">
+    <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.6-3.6"/></symbol>
+    <symbol id="i-star" viewBox="0 0 24 24"><path d="m12 3.6 2.6 5.3 5.8.8-4.2 4.1 1 5.8-5.2-2.8-5.2 2.8 1-5.8L3.6 9.7l5.8-.8L12 3.6Z"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M6.6 3.5h2.2l1.5 4-2 1.4a12.5 12.5 0 0 0 6.8 6.8l1.4-2 4 1.5v2.2a2.4 2.4 0 0 1-2.6 2.4C10.7 19.1 4.9 13.3 4.2 6.1A2.4 2.4 0 0 1 6.6 3.5Z"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5.5" width="18" height="13" rx="2.4"/><path d="m4.2 7.4 7.8 5.6 7.8-5.6"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s7-6.1 7-11a7 7 0 1 0-14 0c0 4.9 7 11 7 11Z"/><circle cx="12" cy="10" r="2.6"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.4"/><path d="M12 7.5V12l3 1.8"/></symbol>
+    <symbol id="i-copy" viewBox="0 0 24 24"><rect x="8.5" y="8.5" width="11" height="11" rx="2.2"/><path d="M15.5 5.5h-8a2 2 0 0 0-2 2v8"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M4.5 12h15M13.5 6l6 6-6 6"/></symbol>
+    <symbol id="i-arrow-up" viewBox="0 0 24 24"><path d="M12 19.5v-15M6 10.5l6-6 6 6"/></symbol>
+    <symbol id="i-leaf" viewBox="0 0 24 24"><path d="M20.5 3.5C11 3.5 4.5 8.4 4.5 15a5.5 5.5 0 0 0 5.5 5.5c6.6 0 10.5-6.6 10.5-17Z"/><path d="M4.5 20.5C8.5 15 12.5 11.5 18 8.5"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12.5 4.5 4.5L19 7"/></symbol>
+    <symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="3.6"/><path d="M4.8 20.5c.7-3.8 3.6-5.8 7.2-5.8s6.5 2 7.2 5.8"/></symbol>
+    <symbol id="i-flask" viewBox="0 0 24 24"><path d="M9.5 3.5h5M10.5 3.5v5.2L5.4 18a2 2 0 0 0 1.7 3h9.8a2 2 0 0 0 1.7-3l-5.1-9.3V3.5"/><path d="M7.6 14.5h8.8"/></symbol>
+    <symbol id="i-dna" viewBox="0 0 24 24"><path d="M7 3c0 6 10 6 10 12M17 3c0 6-10 6-10 12M7 21c0-1.2.2-2.3.6-3.3M17 21c0-1.2-.2-2.3-.6-3.3M8 6.5h8M8 17.5h8M8.6 10.5h6.8M8.6 13.5h6.8" opacity=".9"/></symbol>
+    <symbol id="i-trash" viewBox="0 0 24 24"><path d="M4.5 7h15M9.5 7V4.8h5V7M6.5 7l.9 12.2a1.8 1.8 0 0 0 1.8 1.7h5.6a1.8 1.8 0 0 0 1.8-1.7L17.5 7"/></symbol>
+  </svg>
+
+  <a class="skip-link" href="#directory">跳到师资目录</a>
+
+  <!-- ============ 顶部导航 ============ -->
+  <header class="site-header" id="siteHeader">
+    <div class="nav-wrap">
+      <a class="brand" href="#top">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 48 48" fill="none">
+            <circle cx="24" cy="24" r="21" stroke="currentColor" stroke-opacity=".35" stroke-width="1.4"/>
+            <path d="M24 8c9.5 0 13.5 6.8 13.5 13.6S31.5 37 24 37s-13.5-8.6-13.5-15" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/>
+            <path d="M24 12v24M18 18.5c5 2.6 5 8.4 0 11M30 18.5c-5 2.6-5 8.4 0 11" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+          </svg>
+        </span>
+        <span class="brand-text">
+          <strong>青禾大学生物工程学院</strong>
+          <em>School of Biological Engineering</em>
+        </span>
+      </a>
+
+      <nav class="nav-links" id="navLinks" aria-label="主导航">
+        <a href="#directory">师资目录</a>
+        <a href="#departments">系所中心</a>
+        <a href="#contact">联系学院</a>
+        <a class="nav-menu-phone" href="tel:057188092100">
+          <svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg>
+          <span>学院总机 0571-8809 2100</span>
+        </a>
+      </nav>
+
+      <div class="nav-actions">
+        <a class="nav-phone" href="tel:057188092100">
+          <svg class="icon"><use href="#i-phone"/></svg>
+          <span>0571-8809 2100</span>
+        </a>
+        <button class="nav-burger" id="navBurger" type="button" aria-label="打开菜单" aria-expanded="false" aria-controls="navLinks">
+          <svg class="icon nav-burger-open"><use href="#i-menu"/></svg>
+          <svg class="icon nav-burger-close"><use href="#i-close"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- ============ 首屏 ============ -->
+    <section class="hero" aria-labelledby="heroTitle">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="hero-veil" aria-hidden="true"></div>
+
+      <svg class="hero-dna" viewBox="0 0 420 620" fill="none" aria-hidden="true">
+        <g stroke="currentColor" stroke-width="1.6" stroke-linecap="round">
+          <path d="M96 20c180 90 180 210 0 300s-180 210 0 300" opacity=".55"/>
+          <path d="M300 20c-180 90-180 210 0 300s180 210 0 300" opacity=".35"/>
+          <path d="M120 70h156M96 120h204M78 170h240M74 220h248M82 270h232M100 320h196M100 370h196M82 420h232M74 470h248M78 520h240M96 570h204" opacity=".18"/>
+        </g>
+      </svg>
+      <svg class="hero-molecule" viewBox="0 0 260 260" fill="none" aria-hidden="true">
+        <g stroke="currentColor" stroke-width="1.4" opacity=".5">
+          <circle cx="60" cy="80" r="7"/><circle cx="150" cy="46" r="10"/><circle cx="206" cy="128" r="6"/>
+          <circle cx="128" cy="168" r="8"/><circle cx="66" cy="200" r="5"/><circle cx="196" cy="214" r="7"/>
+          <path d="M60 80 150 46l56 82-78 40-62 32 34-120M150 46l-22 122M206 128l-78 40"/>
+        </g>
+      </svg>
+
+      <div class="hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow eyebrow-light">
+            <span class="dot"></span>
+            生物工程学院 · 师资检索
+            <span class="eyebrow-en">/ FACULTY DIRECTORY</span>
+          </p>
+          <h1 id="heroTitle">在生命的尺度里，<br>找到你的<em>引路人</em>。</h1>
+          <p class="hero-sub">从办公室电话到研究方向，收录全院 24 位专任教师的公开信息。<br class="br-lg">输入一个名字、一个关键词，或者一间办公室的门牌号。</p>
+
+          <form class="hero-search" id="heroSearch" role="search" autocomplete="off">
+            <svg class="icon" aria-hidden="true"><use href="#i-search"/></svg>
+            <label class="visually-hidden" for="heroSearchInput">搜索教师</label>
+            <input id="heroSearchInput" type="search" placeholder="搜索姓名 / 拼音 / 研究方向 / 办公室 / 邮箱" autocomplete="off">
+            <button type="submit" class="hero-search-btn">
+              <span class="hero-search-btn-text">搜索</span>
+              <svg class="icon"><use href="#i-arrow"/></svg>
+            </button>
+          </form>
+
+          <div class="hero-hints">
+            <span>试试：</span>
+            <button type="button" class="hint" data-q="张三">张三</button>
+            <button type="button" class="hint" data-q="合成生物学">合成生物学</button>
+            <button type="button" class="hint" data-q="A-512">A-512</button>
+            <button type="button" class="hint" data-q="发酵工程">发酵工程</button>
+          </div>
+
+          <dl class="hero-stats" id="heroStats"></dl>
+        </div>
+
+        <aside class="hero-card" aria-label="推荐导师名片">
+          <div class="hero-card-top">
+            <span class="hero-card-badge"><svg class="icon"><use href="#i-leaf"/></svg> 本周推荐</span>
+            <span class="hero-card-dept">生化与分子</span>
+          </div>
+          <div class="hero-card-profile">
+            <span class="avatar avatar-lg" data-dept="bmb" aria-hidden="true">张</span>
+            <div>
+              <h2>张三</h2>
+              <p>教授 · 系主任 · 博士生导师</p>
+            </div>
+          </div>
+          <ul class="hero-card-research">
+            <li>蛋白质工程</li><li>酶催化</li><li>定向进化</li>
+          </ul>
+          <div class="hero-card-contact">
+            <a href="tel:057188092101"><svg class="icon"><use href="#i-phone"/></svg> 0571-8809 2101</a>
+            <a href="mailto:zhang.san@bioeng.qinghe.edu.cn"><svg class="icon"><use href="#i-mail"/></svg> zhang.san@bioeng.qinghe.edu.cn</a>
+            <p><svg class="icon"><use href="#i-pin"/></svg> 生命科学楼 A-512</p>
+          </div>
+          <button class="btn btn-ghost-light hero-card-btn" type="button" data-open-teacher="zhang-san">
+            查看完整名片 <svg class="icon"><use href="#i-arrow"/></svg>
+          </button>
+          <svg class="hero-card-leaf" viewBox="0 0 120 120" fill="none" aria-hidden="true">
+            <path d="M96 12C48 16 20 40 22 72c1 20 15 32 34 32 30 0 42-40 40-92Z" stroke="currentColor" stroke-width="1.3"/>
+            <path d="M20 106C40 78 60 58 92 36" stroke="currentColor" stroke-width="1.3"/>
+          </svg>
+        </aside>
+      </div>
+
+      <a class="scroll-cue" href="#directory" aria-label="向下浏览师资目录">
+        <span>向下浏览</span>
+        <span class="scroll-cue-line" aria-hidden="true"></span>
+      </a>
+
+      <p class="hero-credit">背景影像 · Unsplash</p>
+    </section>
+
+    <!-- ============ 关键词跑马灯 ============ -->
+    <div class="ticker" aria-hidden="true">
+      <div class="ticker-track" id="tickerTrack"></div>
+    </div>
+
+    <!-- ============ 师资目录 ============ -->
+    <section class="directory" id="directory" aria-labelledby="directoryTitle">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <p class="eyebrow eyebrow-dark"><span class="dot"></span> Faculty Directory</p>
+            <h2 id="directoryTitle">师资目录</h2>
+          </div>
+          <div class="section-aside">
+            <p>每一位老师的研究方向、办公室门牌与联系方式，都在这里。用姓名、拼音、关键词或房间号，找到你想找的人。</p>
+            <p class="section-index" aria-hidden="true">01 / 03</p>
+          </div>
+        </div>
+
+        <div class="toolbar reveal">
+          <div class="search-field">
+            <svg class="icon" aria-hidden="true"><use href="#i-search"/></svg>
+            <label class="visually-hidden" for="searchInput">搜索教师</label>
+            <input id="searchInput" type="search" placeholder="搜索姓名、拼音、研究方向、办公室、电话或邮箱…" autocomplete="off" spellcheck="false">
+            <kbd class="search-kbd" aria-hidden="true">/</kbd>
+            <button class="search-clear" id="searchClear" type="button" aria-label="清空搜索" hidden>
+              <svg class="icon"><use href="#i-close"/></svg>
+            </button>
+          </div>
+
+          <div class="toolbar-row">
+            <div class="chips" id="deptChips" role="group" aria-label="按系所筛选"></div>
+            <div class="toolbar-controls">
+              <label class="select">
+                <span>职称</span>
+                <select id="titleSelect">
+                  <option value="all">全部职称</option>
+                  <option value="教授">教授</option>
+                  <option value="副教授">副教授</option>
+                  <option value="讲师">讲师</option>
+                  <option value="研究员">研究员</option>
+                  <option value="副研究员">副研究员</option>
+                </select>
+              </label>
+              <label class="select">
+                <span>排序</span>
+                <select id="sortSelect">
+                  <option value="default">默认顺序</option>
+                  <option value="name">姓名拼音 A–Z</option>
+                  <option value="title">职称由高到低</option>
+                  <option value="dept">按系所排列</option>
+                </select>
+              </label>
+              <button class="fav-toggle" id="favToggle" type="button" aria-pressed="false">
+                <svg class="icon"><use href="#i-star"/></svg>
+                <span>只看收藏</span>
+                <span class="fav-count" id="favCount">0</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="results-bar">
+          <p class="results-count" id="resultCount" aria-live="polite">共 24 位教师</p>
+          <div class="active-tags" id="activeTags"></div>
+          <button class="reset-link" id="resetFilters" type="button" hidden>清除全部筛选</button>
+        </div>
+
+        <div class="faculty-grid" id="facultyGrid"></div>
+
+        <div class="empty-state" id="emptyState" hidden>
+          <svg class="empty-leaf" viewBox="0 0 120 120" fill="none" aria-hidden="true">
+            <path d="M96 12C48 16 20 40 22 72c1 20 15 32 34 32 30 0 42-40 40-92Z" stroke="currentColor" stroke-width="1.6"/>
+            <path d="M20 106C40 78 60 58 92 36" stroke="currentColor" stroke-width="1.6"/>
+          </svg>
+          <h3>没有找到匹配的老师</h3>
+          <p>换个关键词试试，或者放宽一下筛选条件。</p>
+          <button class="btn btn-dark" id="emptyReset" type="button">清除筛选，查看全部教师</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 系所中心 ============ -->
+    <section class="departments" id="departments" aria-labelledby="departmentsTitle">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <p class="eyebrow eyebrow-dark"><span class="dot"></span> Departments &amp; Centers</p>
+            <h2 id="departmentsTitle">系所中心</h2>
+          </div>
+          <div class="section-aside">
+            <p>五个彼此独立又相互交叉的研究单元，从分子、细胞到微生物与工程系统，构成学院的研究版图。</p>
+            <p class="section-index" aria-hidden="true">02 / 03</p>
+          </div>
+        </div>
+
+        <div class="dept-grid" id="deptGrid"></div>
+      </div>
+    </section>
+
+    <!-- ============ 联系学院 ============ -->
+    <section class="contact" id="contact" aria-labelledby="contactTitle">
+      <div class="contact-bg" aria-hidden="true"></div>
+      <div class="contact-veil" aria-hidden="true"></div>
+      <div class="container contact-inner">
+        <div class="contact-copy reveal">
+          <p class="eyebrow eyebrow-light"><span class="dot"></span> Visit &amp; Contact</p>
+          <h2 id="contactTitle">欢迎来<br>生命科学楼坐坐</h2>
+          <p>想当面聊聊研究方向？欢迎提前致电或邮件预约。学院办公室在工作日全天开放，也可以请前台帮忙联络具体老师。</p>
+          <div class="contact-actions">
+            <a class="btn btn-lime" href="mailto:bioeng@qinghe.edu.cn">
+              发邮件给学院办公室 <svg class="icon"><use href="#i-arrow"/></svg>
+            </a>
+            <a class="btn btn-ghost-light" href="#directory">返回师资目录</a>
+          </div>
+        </div>
+
+        <div class="contact-panel reveal">
+          <p class="contact-panel-title">学院办公室</p>
+          <dl>
+            <div>
+              <dt><svg class="icon"><use href="#i-pin"/></svg> 地址</dt>
+              <dd>青禾市云栖路 318 号<br>生命科学楼 A 座 1 层</dd>
+            </div>
+            <div>
+              <dt><svg class="icon"><use href="#i-phone"/></svg> 电话</dt>
+              <dd><a href="tel:057188092100">0571-8809 2100</a><button class="mini-copy" type="button" data-copy="0571-8809 2100" data-copy-label="学院办公室电话" aria-label="复制学院办公室电话"><svg class="icon"><use href="#i-copy"/></svg></button></dd>
+            </div>
+            <div>
+              <dt><svg class="icon"><use href="#i-mail"/></svg> 邮箱</dt>
+              <dd><a href="mailto:bioeng@qinghe.edu.cn">bioeng@qinghe.edu.cn</a><button class="mini-copy" type="button" data-copy="bioeng@qinghe.edu.cn" data-copy-label="学院邮箱" aria-label="复制学院邮箱"><svg class="icon"><use href="#i-copy"/></svg></button></dd>
+            </div>
+            <div>
+              <dt><svg class="icon"><use href="#i-clock"/></svg> 办公时间</dt>
+              <dd>周一至周五 08:30 – 17:00</dd>
+            </div>
+          </dl>
+          <p class="contact-note">来之前，不妨先在<a href="#directory">师资目录</a>里查好老师的办公室门牌。</p>
+        </div>
+      </div>
+      <p class="section-index contact-index" aria-hidden="true">03 / 03</p>
+    </section>
+  </main>
+
+  <!-- ============ 页脚 ============ -->
+  <footer class="site-footer">
+    <div class="footer-bg" aria-hidden="true"></div>
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a class="brand brand-footer" href="#top">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none">
+              <circle cx="24" cy="24" r="21" stroke="currentColor" stroke-opacity=".35" stroke-width="1.4"/>
+              <path d="M24 8c9.5 0 13.5 6.8 13.5 13.6S31.5 37 24 37s-13.5-8.6-13.5-15" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/>
+              <path d="M24 12v24M18 18.5c5 2.6 5 8.4 0 11M30 18.5c-5 2.6-5 8.4 0 11" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+            </svg>
+          </span>
+          <span class="brand-text">
+            <strong>青禾大学生物工程学院</strong>
+            <em>School of Biological Engineering</em>
+          </span>
+        </a>
+        <p class="footer-motto">以生命之名，向生长处去。</p>
+        <p class="footer-fictional">本站为设计演示作品：教师姓名、电话与邮箱均为虚构示例（以「张三」为样例构建），请以学院官方发布为准。背景影像来自 Unsplash。</p>
+      </div>
+
+      <nav class="footer-nav" aria-label="页脚导航">
+        <p>浏览</p>
+        <a href="#directory">师资目录</a>
+        <a href="#departments">系所中心</a>
+        <a href="#contact">联系学院</a>
+      </nav>
+
+      <div class="footer-contact">
+        <p>联系</p>
+        <a href="tel:057188092100">0571-8809 2100</a>
+        <a href="mailto:bioeng@qinghe.edu.cn">bioeng@qinghe.edu.cn</a>
+        <span>生命科学楼 A 座 1 层</span>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© <span id="footerYear">2026</span> 青禾大学生物工程学院 · 师资信息公开页</p>
+      <a class="to-top" href="#top">回到顶部 <svg class="icon"><use href="#i-arrow-up"/></svg></a>
+    </div>
+  </footer>
+
+  <!-- ============ 教师名片弹窗 ============ -->
+  <div class="modal" id="teacherModal" hidden>
+    <div class="modal-backdrop" data-close-modal></div>
+    <div class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modalName">
+      <button class="modal-close" type="button" data-close-modal aria-label="关闭名片">
+        <svg class="icon"><use href="#i-close"/></svg>
+      </button>
+      <div id="modalContent"></div>
+    </div>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite">
+    <svg class="icon"><use href="#i-check"/></svg>
+    <span id="toastText">已复制</span>
+  </div>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
